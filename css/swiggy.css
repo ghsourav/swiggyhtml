@@ -1,0 +1,196 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+#headerblock{
+height: 600;
+}
+.leftheaderblock{
+    width:55%;
+    float: left;
+}
+.rightheaderblock{
+    background: url('../images/Lunch1_box.jpg');
+    width: 45%;
+    float: left;
+    height: 600px;
+    background-size: cover;
+    background-attachment: local;
+}
+.logo{
+    width: 30%;
+    float: left;
+    height: 50px;
+}
+.menu{
+    float: right;
+    width: 70%;
+    text-align: right;
+}
+.menu ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    line-height: 54px;
+}
+.menu ul li{
+    display: inline-block;
+}
+#menuandlogo{
+    padding: 60px;
+}
+.logo svg{
+    fill: #fc8019;
+    width: 200px;
+}
+.menu ul li a{
+    color: #000;
+    padding: 17px;
+    text-decoration: none;
+    font-weight: bold;
+}
+.menu ul li a:hover{
+ color: #fc8019;
+}
+.signup {
+    background: #111;
+    padding: 11px 30px !important;
+    color: white !important;
+}
+#mainblock, .footerlist{
+    padding: 20px 60px;
+
+}
+.headertitle h1{
+    font-weight: 600 ;
+    font-size: 40px;
+    text-transform: capitalize;
+    margin-bottom: 5px;
+}
+.contentblockpara p{
+    font-size: 23px;
+    padding: 0;
+    margin-top: 0;
+    margin-bottom: 50px;
+}
+.form-control{
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.form{
+    position:relative ;
+}
+.btn{
+    position: absolute;
+    background: #fc8019;
+    color: white;
+    padding: 10px;
+    border: none;
+    right: 0;
+    top: 0;
+    height: 59px;
+    width: 120px;
+    font-size: 18px;
+    font-weight: bold;
+}
+.locateme{
+    position: absolute;
+    right:130px ;
+    top:7px ;
+    padding: 10px 20px;
+    text-transform: capitalize;
+    font-weight: bold;
+    font-size: 14px !important;
+}
+.locateme:hover{
+    background: #eee;
+    transition: cubic-bezier(0.075,0.082,0.165,1);
+    cursor: pointer;
+}
+.footerlist h3{
+    color: #999;
+    text-transform: capitalize;
+    font-size: 15px;
+}
+.footerlist ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.footerlist ul li{
+    display: inline-block;
+}
+.footerlist ul li a{
+   text-decoration:none; 
+}
+.footerlist ul li  :nth-child(odd)a {
+    color:#999;
+
+
+}
+.footerlist ul li  :nth-child(even)a {
+    color:#000;
+
+
+}
+/*----middlesection css---/*/
+#middlesection{
+    background:#2b1e16;
+    clear: both;
+    height: 400px;
+}
+figure{
+    padding: 0;
+    margin: 0;
+}
+.leftarea{
+    width: 30%;
+    float: left;
+}
+.middlearea{
+    width: 30%;
+    float: left;
+}
+.rightearea{
+    width: 30%;
+    float: left;
+}
+.contentarea{
+    text-align: center;
+    padding: 20px;
+    color: #fff;
+    
+}
+.contentarea h1{
+    font-size: 18px;
+}
+.contentarea p{
+    font-size: 14px;
+}
+.contentarea img{
+    width: 105px;
+    height: 199px;
+    i
+}
+#res .left{
+    width: 45%;
+    float: left;
+    padding: 90px 100px;
+    box-sizing: border-box;
+}
+#res .right{
+    width: 55%;
+    float: right;
+}
+.left img{
+    width: 170px;
+    margin: 10px;
+}
+#res figure{
+    margin: 0;
+}
+.right img{
+    width: 350px;
+}
